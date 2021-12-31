@@ -2,3 +2,7 @@
 Everything in Main.hs was written by me except the actual main function.
 It takes a file written in the Logic language defined for this project.
 It parses that file and then evaluates it
+To run the parser you do 
+cabal run -- logic -p .\tests\tests1.l
+To run the full interpreter you do
+cabal run -- logic .\tests\tests1.l
